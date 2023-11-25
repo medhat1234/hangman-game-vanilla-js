@@ -97,7 +97,7 @@ element.onclick = function(){
 }else{
    wrongCount++
    element.style.opacity = 0;
-   img.src =`/gfx/${wrongCount}.svg`
+   img.src =`gfx/${wrongCount}.svg`
 
 }
    if(wordArr.join("") === encriptedWordArr.join("")){

@@ -1,0 +1,78 @@
+.grid-container {
+  margin-top: 3em;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px ;
+    grid-template-rows:60px 60px 60px ;
+
+    padding: .2em;
+    width: 100%;
+    height: 50%;
+    grid-gap: .6em;
+  }
+.grid-item {
+  user-select: none;
+    background-color: #d8ffef;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+  }
+.grid-right {
+  opacity: 0.2;
+    background-color: rgb(4, 255, 0);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 1px;
+    font-size: 30px;
+    text-align: center;
+  }
+.grid-item:hover {
+    background-color: #d8edff;
+  }
+.grid-item:active {
+    background-color: #f3ffff;
+  }
+img{
+    width: 35%;
+    height: 35%;
+}
+.flexCont{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    white-space: nowrap; 
+    text-align: center;
+    font-size: 300%;
+    margin: .3em;
+}
+
+
+.word{
+margin: 0em;
+white-space: nowrap; 
+text-align: center;
+font-size: 300%;
+}
+.flexrow{
+  display: flex;
+  flex-flow: row;
+}
+.flexcol{
+display: flex;
+flex-flow: column;
+}
+.hint{
+  white-space: nowrap; 
+  text-align: center;
+  font-size: 150%;
+  margin: 0.1em;
+}
+#pa{
+  color: red;
+  opacity: 0;
+  background-color: rgb(215, 250, 243);
+}
+#pa:hover{
+  color: red;
+  opacity: 0;
+  background-color: rgb(160, 255, 236);
+}
